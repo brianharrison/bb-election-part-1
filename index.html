@@ -5,16 +5,31 @@
     <title>Bikini Bottom Election</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="election.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bikini.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bikini.css">
   </head>
   <body>
     <div>   
       <main>
       <h1>BIKINI BOTTOM NEEDS A NEW MAYOR!</h1>
-
-      <button class='refresh'>Click to see current results</button>
-      <ul id="results"></ul>
+      <p></p>
+      <button class='refresh'>Click here to see current results</button>
+      <p></p>
+      <table>
+        <thead>
+        <tr>
+          <th class="phototd"></th>
+          <th class="candtd" colspan="2"><strong>Who's gonna be the new MAYOR?</strong></th>
+          <th class="counttd"></th>
+          <th class="votetd"></th>
+        </tr>
+      </thead>
+      <tbody id="results">
+        <tr class="row1">
+        </tr>
+      </tbody>       
+      </table>
+      <!-- <ul id="results"></ul> -->
     </main>
     </div>
   </body>
